@@ -29,8 +29,8 @@
     "yarn": "^1.22.17"
   },
   "scripts": {
-    "start": "set \"GENERATE_SOURCEMAP=false\" && react-app-rewired start",
-    "build": "react-app-rewired build",
+    "start": "node api.js && set \"GENERATE_SOURCEMAP=false\" && react-app-rewired start",
+    "build": "node api.js && react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject",
     "devchain": "node Truffle/scripts/devChain.js",

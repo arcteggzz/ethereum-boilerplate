@@ -32,3 +32,7 @@ typechain
 #Truffle files
 /Truffle/build
 /Truffle/data
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
